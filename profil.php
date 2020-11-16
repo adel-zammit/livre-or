@@ -37,7 +37,7 @@ if(isset($_POST['valider']))
 {
     
 
- $db=mysqli_connect("localhost","root","","livreor");
+ $db=mysqli_connect("localhost","root","","discussion");
  $newlogin= $_POST['login']; 
  $login= $_SESSION['login']; 
  $password=$_POST['password'];
